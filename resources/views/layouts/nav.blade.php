@@ -1,48 +1,14 @@
-<aside id="sidebar">
-    <div class="d-flex">
-        <button class="toggle-btn" type="button">
-            <i class="fa-solid fa-bars"></i>
-        </button>
-        <div class="sidebar-logo">
-            <a href="#">Hello, {{ Auth::user()->first_name }}</a>
+<nav class="navbar bg-light">
+    <div class="container-fluid">
+        <div class="d-flex ms-auto">
+            <form class="d-flex" role="search">
+                <input class="form-control me-2 rounded-pill" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success border rounded-pill" type="submit">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
+            <button class="btn btn-default rounded-pill"><i class="fa-solid fa-bell"></i></button>
+            <button class="btn btn-default rounded-pill"><i class="fa-solid fa-user"></i></button>
         </div>
     </div>
-    <ul class="sidebar-nav">
-        <li class="sidebar-item">
-            <a href="#" class="sidebar-link">
-                <i class="fa-solid fa-house"></i>
-                <span>Overview</span>
-            </a>
-        </li>
-        <li class="sidebar-item">
-            <a href="#" class="sidebar-link">
-                <i class="fa-solid fa-industry"></i>
-                <span>Properties</span>
-            </a>
-        </li>
-        <li class="sidebar-item">
-            <a href="#" class="sidebar-link">
-                <i class="fa-solid fa-certificate"></i>
-                <span>Verification</span>
-            </a>
-        </li>
-        <li class="sidebar-item">
-            <a href="#" class="sidebar-link">
-                <i class="fa-solid fa-bell"></i>
-                <span>Notification</span>
-            </a>
-        </li>
-        <li class="sidebar-item">
-            <a href="#" class="sidebar-link">
-                <i class="fa-solid fa-gear"></i>
-                <span>Settings</span>
-            </a>
-        </li>
-    </ul>
-    <div class="sidebar-footer">
-        <a href="#" class="sidebar-link">
-            <i class="fa-solid fa-arrow-right-from-bracket"></i>
-            <span>Logout</span>
-        </a>
-    </div>
-</aside>
+</nav>
