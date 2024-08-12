@@ -12,6 +12,6 @@ Route::get('/', function () {
 })
     ->middleware('auth');
 
-Auth::routes();
+Auth::routes(['register' => false]);
 
 Route::get('/profile', [App\Http\Controllers\ProfileController::class, 'index'])->name('profile');

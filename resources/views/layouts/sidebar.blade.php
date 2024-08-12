@@ -66,21 +66,25 @@
         <hr>
         <li class="sidebar-item">
             <a href="#" class="sidebar-link">
-            <i class="fa-solid fa-ticket-simple"></i>
+                <i class="fa-solid fa-ticket-simple"></i>
                 <span>Ticket</span>
             </a>
         </li>
         <li class="sidebar-item">
             <a href="#" class="sidebar-link">
-            <i class="fa-solid fa-circle-info"></i>
+                <i class="fa-solid fa-circle-info"></i>
                 <span>About Premoza Admin</span>
             </a>
         </li>
     </ul>
     <div class="sidebar-footer">
-        <a href="#" class="sidebar-link">
+        <a href="{{ route('logout') }}" class="sidebar-link" onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
             <i class="fa-solid fa-arrow-right-from-bracket"></i>
             <span>Logout</span>
         </a>
     </div>
+    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+        @csrf
+    </form>
 </aside>
