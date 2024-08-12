@@ -7,7 +7,8 @@
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
             </form>
-            <button class="btn btn-default rounded-pill mx-2"><i class="fa-solid fa-user"></i></button>
+            <button class="btn btn-default rounded-pill"><i class="fa-solid fa-bell"></i></button>
+            <button class="btn btn-default rounded-pill"><i class="fa-solid fa-user"></i></button>
         </div>
     </div>
 </nav>

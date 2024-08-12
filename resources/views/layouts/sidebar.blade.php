@@ -9,7 +9,7 @@
     </div>
     <ul class="sidebar-nav">
         <li class="sidebar-item">
-            <a href="#" class="sidebar-link">
+            <a href="/" class="sidebar-link">
                 <i class="fa-solid fa-house"></i>
                 <span>Overview</span>
             </a>
@@ -40,38 +40,32 @@
                 </li>
 -->
         <li class="sidebar-item">
-            <a href="#" class="sidebar-link">
+            <a href="/properties" class="sidebar-link">
                 <i class="fa-solid fa-industry"></i>
                 <span>Properties</span>
             </a>
         </li>
         <li class="sidebar-item">
-            <a href="#" class="sidebar-link">
+            <a href="/verification" class="sidebar-link">
                 <i class="fa-solid fa-certificate"></i>
                 <span>Verification</span>
             </a>
         </li>
         <li class="sidebar-item">
-            <a href="#" class="sidebar-link">
-                <i class="fa-solid fa-bell"></i>
-                <span>Notification</span>
-            </a>
-        </li>
-        <li class="sidebar-item">
-            <a href="#" class="sidebar-link">
+            <a href="/settings" class="sidebar-link">
                 <i class="fa-solid fa-gear"></i>
                 <span>Settings</span>
             </a>
         </li>
         <hr>
         <li class="sidebar-item">
-            <a href="#" class="sidebar-link">
+            <a href="/tickets" class="sidebar-link">
                 <i class="fa-solid fa-ticket-simple"></i>
-                <span>Ticket</span>
+                <span>Tickets</span>
             </a>
         </li>
         <li class="sidebar-item">
-            <a href="#" class="sidebar-link">
+            <a href="/about" class="sidebar-link">
                 <i class="fa-solid fa-circle-info"></i>
                 <span>About Premoza Admin</span>
             </a>
