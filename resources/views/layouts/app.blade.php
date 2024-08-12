@@ -14,7 +14,7 @@
 
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>@yield('pageTitle') - Premoza</title>
+    <title>@yield('pageTitle') - Premoza</title>    
 
     {{-- Icons --}}
     <link rel="shortcut icon" href="/assets/premoza/premoza-icon-min-round.png">

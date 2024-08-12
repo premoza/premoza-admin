@@ -1,4 +1,4 @@
-<aside id="sidebar" class="expand">
+<aside id="sidebar" class="expand shadow-lg">
     <div class="d-flex">
         <button class="toggle-btn" type="button">
             <i class="fa-solid fa-bars"></i>
