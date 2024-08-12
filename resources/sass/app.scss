@@ -2,27 +2,11 @@
 @import 'poppins';
 
 @import 'bootstrap/scss/bootstrap';
+@import "@fortawesome/fontawesome-free/css/all.css";
 
-/* centering the navbar text */
-nav .navbar-brand {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-nav .nav-item {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-weight: 500;
-    text-transform: uppercase;
-}
-
-nav .nav-item:hover {
-    background: $primary;
-    color: $body-bg !important;
-}
+/*
+ * stylesheet starts here
+ */
 
 ::after,
 ::before {
@@ -119,6 +103,7 @@ a.sidebar-link {
 .sidebar-link i {
     font-size: 1.1rem;
     margin-right: .75rem;
+    transition: all 0.35s ease-in-out;
 }
 
 a.sidebar-link:hover {
@@ -126,6 +111,7 @@ a.sidebar-link:hover {
     border-left: 3px solid #212121;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    transition: all 0.35s ease-in-out;
 }
 
 .sidebar-item {

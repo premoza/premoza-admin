@@ -32,17 +32,7 @@ import "./bootstrap";
     revenue.canvas.height = 400;
     createChart(revenue, "line", ["January", "February", "March", "April", "May"], "Data", [65, 59, 80, 81, 56]);
 
-    const test = document.getElementById("test").getContext("2d");
-    test.canvas.width = 400;
-    test.canvas.height = 400;
-    createChart(test, "line", ["January", "February", "March", "April", "May"], "Data", [65, 59, 80, 81, 56]);
-
-    const test1 = document.getElementById("test1").getContext("2d");
-    test1.canvas.width = 400;
-    test1.canvas.height = 400;
-    createChart(test1, "line", ["January", "February", "March", "April", "May"], "Data", [65, 59, 80, 81, 56]);
-
-
+    
     function createChart(ctx, type, labels, label, data) {
         new Chart(ctx, {
             type: type,
