@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('pageTitle', 'Home')
+@section('pageTitle', 'Overview')
 
 @section('content')
-    <b>Hello, World</b>
+<canvas id="barChart"></canvas>
 @endsection
