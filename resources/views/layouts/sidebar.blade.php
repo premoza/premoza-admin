@@ -14,36 +14,20 @@
                 <span>Overview</span>
             </a>
         </li>
-        <!--
         <li class="sidebar-item">
-                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
-                        data-bs-target="#multi" aria-expanded="false" aria-controls="multi">
-                        <i class="lni lni-layout"></i>
-                        <span>Performance</span>
-                    </a>
-                    <ul id="multi" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
-                        <li class="sidebar-item">
-                            <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse"
-                                data-bs-target="#multi-two" aria-expanded="false" aria-controls="multi-two">
-                                Two Links
-                            </a>
-                            <ul id="multi-two" class="sidebar-dropdown list-unstyled collapse">
-                                <li class="sidebar-item">
-                                    <a href="#" class="sidebar-link">Link 1</a>
-                                </li>
-                                <li class="sidebar-item">
-                                    <a href="#" class="sidebar-link">Link 2</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
--->
-        <li class="sidebar-item">
-            <a href="/properties" class="sidebar-link">
+            <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                data-bs-target="#multi" aria-expanded="false" aria-controls="multi">
                 <i class="fa-solid fa-industry"></i>
                 <span>Properties</span>
             </a>
+            <ul id="multi" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                <li class="sidebar-item mx-4">
+                    <a href="/property/add" class="sidebar-link">Add Property</a>
+                </li>
+                <li class="sidebar-item mx-4">
+                    <a href="/property/list" class="sidebar-link">List Property</a>
+                </li>
+            </ul>
         </li>
         <li class="sidebar-item">
             <a href="/verification" class="sidebar-link">
