@@ -46,7 +46,7 @@
                 <input type="text" id="line" class="form-control" required autocomplete="address-line1">
             </div>
             <div class="row mb-3">
-                <div class="col-md-6">
+                <div class="col-sm-5 col-md-6">
                     <label for="country">Country</label>
                     <input name="country" list="countries" type="text" class="form-control" id="country" autocomplete="country-name" required>
                     <datalist id="countries">
@@ -297,7 +297,7 @@
                 </div>
             </div>
             <div class="row mb-3">
-                <div class="col-md-6">
+                <div class="col-sm-5 col-md-6">
                     <label for="city" class="form-label">City</label>
                     <input type="text" id="city" class="form-control" required>
                 </div>
@@ -311,7 +311,7 @@
     <div class="col-12 col-lg-5 col-xl-4">
         <div class="p-3 border mb-3 rounded">
             <div class="row mb-3">
-                <div class="col-md-4">
+                <div class="col-sm-5 col-md-4">
                     <label for="price">Price</label>
                     <input type="text" id="price" class="form-control" required>
                 </div>
@@ -327,7 +327,7 @@
                 </div>
             </div>
             <div class="mb-3">
-                <label for="tags" class="form-label">Tags</label>
+                <label for="tags" class="form-label">Tags <small class="text-muted">(seperate with spaces)</small></label>
                 <textarea type="text" id="tags" class="form-control" required></textarea>
                 <span class="text-muted">0/10</span>
             </div>
@@ -336,16 +336,23 @@
                     <input class="form-check-input" type="checkbox" role="switch" name="visible" id="visible" checked>
                     <label class="form-check-label" for="visible">Visible</label>
                 </div>
-                <div class="form-check form-switch mx-3">
-                    <input class="form-check-input" type="checkbox" role="switch" name="visible" id="visible">
-                    <label class="form-check-label" for="visible">WiFi</label>
+            </div>
+        </div>
+        <!-- This must be on main site
+        <div class="p-3 border mb-3 rounded">
+            <h5>Time/Date</h5>
+            <div class="row mb-3">
+                <div class="col-md-5">
+                    <label for="checkin" class="form-label">Checkin</label>
+                    <input type="datetime-local" id="checkin" class="form-control" required>
                 </div>
-                <div class="form-check form-switch">
-                    <input class="form-check-input" type="checkbox" role="switch" name="visible" id="visible">
-                    <label class="form-check-label" for="visible">CCTV</label>
+                <div class="col-md-5">
+                    <label for="checkout" class="form-label">Checkout</label>
+                    <input type="datetime-local" id="checkout" class="form-control" required>
                 </div>
             </div>
         </div>
+-->
     </div>
 </div>
 @endsection
