@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PropertyController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -12,10 +13,6 @@ Route::middleware(['auth'])->group(function () {
             'data' => [65, 59, 80, 81, 56],
         ];
         return view('index', compact('data'));
-    });
-
-    Route::get('/properties', function () {
-        return view('properties');
     });
 
     Route::get('/verification', function () {
@@ -33,6 +30,16 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/about', function () {
         return view('about');
     });
+
+    /*
+     * Property
+     */
+    Route::get('/property/add', [PropertyController::class, 'add']);
+    Route::get('/property/list', [PropertyController::class, 'list']);
+
+    /*
+     * API
+     */
 });
 
 
