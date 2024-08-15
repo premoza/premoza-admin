@@ -25,30 +25,16 @@
                 <span class="fs-1 text-primary">3.5M</span>
             </div>
         </div>
-
-        <div class="col-md-4 mb-3">
-            <div class="border rounded">
-                <canvas class="p-3" id="test1"></canvas>
-            </div>
-        </div>
-        <div class="col-md-4 mb-3">
-            <div class="border rounded">
-                <canvas class="p-3" id="test2"></canvas>
-            </div>
-        </div>
-        <div class="col-md-4 mb-3">
-            <div class="border rounded">
-                <canvas class="p-3" id="test3"></canvas>
-            </div>
-        </div>
     </div>
 
-    <div class="row">
-        <div class="col-md-4">
-            <div class="border rounded">
-                <canvas class="p-3" id="test4"></canvas>
-            </div>
-        </div>
+    <div class="border rounded mb-3">
+        <canvas class="p-3" id="test1"></canvas>
+    </div>
+    <div class="border rounded">
+        <canvas class="p-3" id="test2"></canvas>
+    </div>
+    <div class="border rounded">
+        <canvas class="p-3" id="test4"></canvas>
     </div>
 </div>
 @endsection

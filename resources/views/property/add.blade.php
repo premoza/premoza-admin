@@ -9,7 +9,7 @@
     <div class="col-12 col-lg-5 col-xl-4">
         <div class="p-3">
             Select or drop image file here.<br>max: 1MB
-            <div class="border mb-3 rounded">
+            <div class="border mb-3 rounded shadow-sm">
                 <div class="row mb-3 p-2">
                     <div id="drop-area">
                         <div class="drop-icon mt-4">
@@ -20,11 +20,11 @@
                     </div>
                 </div>
             </div>
-            <button class="btn btn-outline-primary w-100"><i class="fa-solid fa-plus mx-2"></i>Add more image</button>
+            <button class="btn btn-outline-primary w-100 shadow-sm"><i class="fa-solid fa-plus mx-2"></i>Add more image</button>
         </div>
     </div>
     <div class="col-12 col-lg-5 col-xl-4">
-        <div class="p-3 border mb-3 rounded">
+        <div class="p-3 border mb-3 rounded shadow-sm">
             <div class="mb-3">
                 <label for="name" class="form-label">Name</label>
                 <input type="text" id="name" class="form-control" required>
@@ -39,7 +39,7 @@
                 <span class="text-muted">0/150</span>
             </div>
         </div>
-        <div class="p-3 border mb-3 rounded">
+        <div class="p-3 border mb-3 rounded shadow-sm">
             <h5>Location</h5>
             <div class="mb-3">
                 <label for="line" class="form-label">Line</label>
@@ -309,7 +309,7 @@
         </div>
     </div>
     <div class="col-12 col-lg-5 col-xl-4">
-        <div class="p-3 border mb-3 rounded">
+        <div class="p-3 border mb-3 rounded shadow-sm">
             <div class="row mb-3">
                 <div class="col-sm-5 col-md-4">
                     <label for="price">Price</label>
@@ -355,4 +355,7 @@
 -->
     </div>
 </div>
+<button class="fab btn btn-primary shadow-lg">
+<i class="fa-solid fa-plus"></i> &nbsp; Add Property
+</button>
 @endsection
