@@ -215,3 +215,22 @@ a.sidebar-link:hover {
 .full-height {
     height: 100vh;
 }
+
+/*
+ * action button
+ */
+.fab {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    z-index: 1000;
+    transition: all 0.3s ease-in-out;
+}
+.fab:hover {
+    transition: all 0.3s ease-in-out;
+}
