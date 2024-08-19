@@ -36,6 +36,8 @@ Route::middleware(['auth'])->group(function () {
      */
     Route::get('/property/add', [PropertyController::class, 'add']);
     Route::get('/property/list', [PropertyController::class, 'list']);
+    Route::get('/property/list/{uid}', [PropertyController::class, 'view'])
+        ->where('uid', '.*');
 
     /*
      * API
